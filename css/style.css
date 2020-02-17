@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #422e22;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-form {
+    max-width: 405px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 0 0 20px #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form-name,
+.subscribe-form-email,
+.subscribe-form-message {
+    padding: 15px 0 15px 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .8);
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+
+.subscribe-form-name::placeholder,
+.subscribe-form-email::placeholder,
+.subscribe-form-message::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.subscribe-form-name {
+    background-image: url(..//img/icon-name.png);
+}
+
+.subscribe-form-email {
+    background-image: url(../img/icon-email.png);
+}
+
+.subscribe-form-message {
+    background-image: url(../img/icon-message.png);
+    background-position-y: 18px;
+}
+
+.subscribe-form-btn {
+    max-width: 140px;
+    width: 100%;
+    padding: 13px 50px;
+    text-align: center;
+    align-self: flex-end;
+    cursor: pointer;
+    border: 1px solid #253837;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #426b69, #6da5a6);
+    color: #fff;
+    font-size: 18px;
+}
+
+.subscribe-form-btn:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 414px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .subscribe-form-btn {
+        max-width: 100%;
+    }
+}
