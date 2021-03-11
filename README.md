@@ -1,4 +1,4 @@
 # contact-form
 Верстка макета contact-form
 
-Demo - https://omarov-frontend.github.io/contact-form/
+Demo - https://omarovfrontend.github.io/contact-form/
